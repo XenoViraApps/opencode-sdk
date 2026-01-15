@@ -1,0 +1,33 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@opencode-ai/sdk':
+        specifier: ^1.1.20
+        version: 1.1.20
+    devDependencies:
+      typescript:
+        specifier: ^5.4.5
+        version: 5.9.3
+
+packages:
+
+  '@opencode-ai/sdk@1.1.20':
+    resolution: {integrity: sha512-OYzRFqf13y09TSiaQynsInpvJ2benk63NX+4HM7PbV85vYluGxRIB4j7CLCQUGojFmUz8+gOwiJ8+DDnv1h7lQ==}
+
+  typescript@5.9.3:
+    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+snapshots:
+
+  '@opencode-ai/sdk@1.1.20': {}
+
+  typescript@5.9.3: {}
